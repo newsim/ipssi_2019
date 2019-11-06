@@ -9,4 +9,4 @@ Premier depot
 ### Simon AMOYAL
 
 
-Il y aura un **versionnment** des scripts ipssi
+Il y aura un **versionnement** des scripts ipssi
