@@ -2,22 +2,22 @@
 
 ## Les fichiers présent dans le repertoire exam2
 
-*les exercices
-    *exercice1 de type shell
-    *exercice2 de type shell
-    *exercice3 de python
-    *exercice4
-    *exercice5
-    *exercice6
-    *exercice7
-    *exercice8
-    *exercice9
-    *exercice10
-    *exercice11
-    *exercice12
-    *exercice13
-    *exercice14
-*exemples de codes
+* les exercices
+    * exercice1 de type shell
+    * exercice2 de type shell
+    * exercice3 de python
+    * exercice4
+    * exercice5
+    * exercice6
+    * exercice7
+    * exercice8
+    * exercice9
+    * exercice10
+    * exercice11
+    * exercice12
+    * exercice13
+    * exercice14
+* exemples de codes
 
 Voici un exemple de script bash :
 
