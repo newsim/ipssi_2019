@@ -1,10 +1,7 @@
-Description exam2 Simon Amoyal
+# Description exam2 Simon Amoyal
 
-================================
 
-Les fichiers présent dans le repertoire exam2
-
-------------------------------------------------
+## Les fichiers présent dans le repertoire exam2
 
 * les exercices
     * exercice1 de type shell
