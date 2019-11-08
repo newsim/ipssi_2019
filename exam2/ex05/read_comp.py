@@ -1,9 +1,14 @@
 #!/usr/bin/python3
 
-fichier = open("../docker-compose.yml", "r")
-    
-for ligne in fichier:
-    ligne.strip('e')
+import os
 
-    print(ligne)
-    fichier.close
+apath = "docker-compose.yml"
+
+image = 'image'
+fichier = open("docker-compose.yml", "r")
+for line in fichier:
+    if image in line:
+        print(line.strip().split()[1])
+fichier.close()
+
+
