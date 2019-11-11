@@ -8,6 +8,6 @@ def division(arg_a, arg_b):
         result = arg_a/arg_b
         return result
     except ZeroDivisionError:
-        print('erreur de devision par zero')
+        print('erreur de division par zero')
 
 
