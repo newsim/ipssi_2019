@@ -25,4 +25,5 @@ def noel(date):
 
 
 if __name__ == '__main__':
-    print(noel( str(sys.argv[1])) )
+    date = sys.argv[1]
+    print(noel( str(date)) )

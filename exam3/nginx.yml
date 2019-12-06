@@ -1,0 +1,8 @@
+- name: deploy nginx config
+  template:
+    src: nginx.j2
+    dest: /usr/local/etc/nginx/nginx.conf
+- name: test config nginx
+   command: sudo nginx -t
+- name: reload deamon 
+   command: nginx -s reload
