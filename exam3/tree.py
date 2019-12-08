@@ -1,24 +1,26 @@
-
-
-
-
+#!/usr/bin/python3
 import sys
-
-
-
-def fn(n):
-    N = int(sys.argv[1])
-    Y = int(3)
-    if n != 0:
-        fn(n-1)
-        return n*' '+((N-n)*2+1)*'x'
+from math import floor
+def show_tree(width):
+    height=floor((width/5))+1
+    if (width%2 == 0):
+        width=width+1
+    if width <= 3:
+        tronc=1
     else:
-        if ( Y <= N ):
-            return N*' '+'xx'
+        tronc=3
+    tree=""
+    for i in range(1,width+1,2):
+        tree=tree +(i*"x").center(width)
+        tree=tree+"\n"
+    for i in range(height):
+        if (i<height-1):
+            tree=tree+(tronc*"x").center(width)
+            tree=tree+"\n"
         else:
-            return N*' '+'x'
+            tree=tree+(tronc*"x").center(width)
+    return tree
 
 
-
-if __name__ == '__main__':
-    print( fn( int(sys.argv[1])) )
+if __name__ == "__main__":
+    print(show_tree(int(sys.argv[1])))
