@@ -1,5 +1,6 @@
-import calendar
 
+#!/usr/bin/python3
+import calendar
 import os
 import datetime
 import sys
